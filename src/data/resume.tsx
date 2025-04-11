@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Curious 20-something year old — always building cool stuff ツ",
   summary:
-    `I'm a curious 20 year old with a love for math, programming, and crypto. Fascinated by Game Theory, Probability, and Supply & Demand, I enjoy building, breaking, and rebuilding to understand how things work.`,
+    `I'm a curious 20 year old with a love for math, programming, and crypto. Fascinated by Game Theory, Probability, psychology, history & computers I enjoy building, breaking, and rebuilding to understand how things work.`,
   avatarUrl: "/mee.jpeg",
   skills: [
     "C++",
@@ -32,6 +32,13 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
+        url: "https://github.com/sarthakkapila",
+        icon: Icons.github,
+
+        navbar: true,
+      },
+      AlsoGithub: {
+        name: "Github2",
         url: "https://github.com/weknowyourgame",
         icon: Icons.github,
 
