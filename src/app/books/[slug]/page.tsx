@@ -131,7 +131,7 @@ export default async function BookPage({
           
           <div className="flex items-center mb-3">
             <span className="text-yellow-400 font-bold">★</span>
-            <span className="ml-2 text-sm">{book.metadata.rating.toFixed(1)} / 5</span>
+            <span className="ml-2 text-sm">{book.metadata.rating} / 5</span>
           </div>
           
           <div className="flex flex-wrap gap-2 my-4">
