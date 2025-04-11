@@ -8,7 +8,7 @@ export const DATA = {
   location: "Chandigarh, India",
   locationLink: "https://www.google.com/maps/place/Chandigarh",
   description:
-    "Curious 20-something year old — always building cool stuff ツ",
+    "Curious 20-something year old — always building cool stuff",
   summary:
     `I'm a curious 20 year old with a love for math, programming, and crypto. Fascinated by Game Theory, Probability, psychology, history & computers I enjoy building, breaking, and rebuilding to understand how things work.`,
   avatarUrl: "/mee.jpeg",
@@ -93,7 +93,7 @@ export const DATA = {
       href: "https://cheddr.fun",
       location: "Bengaluru, India",
       title: "Co-Founder",
-      logoUrl: "/Cheddr1.webp",
+      logoUrl: "/Cheddr1.png",
       start: "Sept 2024",
       end: "Nov 2024",
       description:
