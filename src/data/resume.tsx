@@ -86,7 +86,7 @@ export const DATA = {
       href: "https://cheddr.fun",
       location: "Bengaluru, India",
       title: "Co-Founder",
-      logoUrl: "/cheddr.webp",
+      logoUrl: "/Cheddr1.webp",
       start: "Sept 2024",
       end: "Nov 2024",
       description:
