@@ -31,6 +31,7 @@ export default async function BooksPage() {
             return 1;
           })
           .map((book, id) => (
+            // @ts-ignore
             <BookCard key={book.slug} book={book} index={id} />
           ))}
       </div>
