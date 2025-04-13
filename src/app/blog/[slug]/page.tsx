@@ -56,8 +56,10 @@ export async function generateMetadata({
 }
 
 function RatingStars({ rating }: { rating: number }) {
-  const fullStars = Math.floor(rating);
-  const hasHalfStar = rating % 1 >= 0.5;
+  // Normalize the rating to a 5-star scale for display purposes
+  const normalizedRating = Math.min(rating, 5);
+  const fullStars = Math.floor(normalizedRating);
+  const hasHalfStar = normalizedRating % 1 >= 0.5;
   const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
   
   return (
