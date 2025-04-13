@@ -136,7 +136,7 @@ export const DATA = {
     {
       school: "Punjab Engineering College",
       href: "https://pec.ac.in/",
-      degree: "B.tech",
+      degree: "Bachelor of Technology",
       logoUrl: "/pec.png",
       start: "2022",
       end: "2026",
